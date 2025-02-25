@@ -22,5 +22,3 @@ spec:
         env:
           - name: MOVIE_CATALOG_SERVICE
             value: http://netflix-movie-catalog-service:8080
-          - name: REDIS_URL
-            value: redis://redis-service:6379
